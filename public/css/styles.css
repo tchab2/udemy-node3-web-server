@@ -1,0 +1,48 @@
+body {
+    margin: 30px auto;
+    width: 1024px;
+    color: #555;
+}
+
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+.header-menu {
+    margin: 30px auto;
+}
+
+.header-menu li {
+    display: inline;
+    margin: 0 10px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.header-menu li:first-child {
+    margin-left: 0;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    display: inline-block
+}
+
+.header-menu li a:hover {
+    transform: rotate(-5deg);
+    color: #222;
+}
+
+input, button {
+    padding: 4px 10px;
+}
+
+button {
+    color: #fff;
+    background: grey;
+}
+
+.error {
+    color: red;
+}

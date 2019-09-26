@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    {{>header}}
+
+    <form>
+        <input placeholder="Fill your city" required>
+        <button>Search</button>
+
+        <p id="error" class="error"></p>
+        <p id="temperature"></p>
+        <p id="summary"></p>
+    </form>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+    
+</body>
+
+</html>
